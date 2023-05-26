@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.03eb1930.css",
-    "main.js": "/static/js/main.081642a5.js",
-    "static/js/27.411951d5.chunk.js": "/static/js/27.411951d5.chunk.js",
-    "static/media/metamask-icon.svg": "/static/media/metamask-icon.b3649ecfe8c45f27ceb9f99d70f3d24e.svg",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/blocto-icon.svg": "/static/media/blocto-icon.ff8c029ba3c3588f8924488fe25239d5.svg",
-    "index.html": "/index.html"
+    "main.css": "/negi_Learn2Earn/static/css/main.03eb1930.css",
+    "main.js": "/negi_Learn2Earn/static/js/main.2b8c8bc1.js",
+    "static/js/27.411951d5.chunk.js": "/negi_Learn2Earn/static/js/27.411951d5.chunk.js",
+    "static/media/metamask-icon.svg": "/negi_Learn2Earn/static/media/metamask-icon.b3649ecfe8c45f27ceb9f99d70f3d24e.svg",
+    "static/media/logo.svg": "/negi_Learn2Earn/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/blocto-icon.svg": "/negi_Learn2Earn/static/media/blocto-icon.ff8c029ba3c3588f8924488fe25239d5.svg",
+    "index.html": "/negi_Learn2Earn/index.html"
   },
   "entrypoints": [
     "static/css/main.03eb1930.css",
-    "static/js/main.081642a5.js"
+    "static/js/main.2b8c8bc1.js"
   ]
 }
