@@ -38,36 +38,36 @@ function App() {
     get_variable();
   }, [])
   if (is_connect == true && chain_id == "0x13466") {
-  return (
+    return (
 
-    <div className="App">
-      <body>
-        <div >
-          <Router basename={process.env.PUBLIC_URL}>
-            <Routes>
-              <Route path={'/create_quiz'} element={<Create_quiz url={'create_quiz'} />} cont={cont} />
-            </Routes>
-            <Routes>
-              <Route path={'/list_quiz'} element={<List_quiz url={'list_quiz'} />} cont={cont} />
-            </Routes>
-            <Routes>
-              {/* <Route path={'/answer_quiz/:id'} element={<Answer_quiz url={'answer_quiz'} />} cont={cont} /> */}
-              <Route path={'/answer_quiz/:id'} element={<Answer_quiz url={'answer_quiz'} />} cont={cont} />
-              quiz_comp
-            </Routes>
+      <div className="App">
+        <body>
+          <div >
+            <Router basename={process.env.PUBLIC_URL}>
+              <Routes>
+                <Route path={'/create_quiz'} element={<Create_quiz url={'create_quiz'} />} cont={cont} />
+              </Routes>
+              <Routes>
+                <Route path={'/list_quiz'} element={<List_quiz url={'list_quiz'} />} cont={cont} />
+              </Routes>
+              <Routes>
+                {/* <Route path={'/answer_quiz/:id'} element={<Answer_quiz url={'answer_quiz'} />} cont={cont} /> */}
+                <Route path={'/answer_quiz/:id'} element={<Answer_quiz url={'answer_quiz'} />} cont={cont} />
+                quiz_comp
+              </Routes>
 
-          </Router>
-        </div>
-        <div>
-          <Nav_menu cont={cont} />
-        </div>
+            </Router>
+          </div>
+          <div>
+            <Nav_menu cont={cont} />
+          </div>
 
-      </body>
+        </body>
 
 
-    </div>
+      </div>
 
-  );
+    );
   }
   else{
     return(
